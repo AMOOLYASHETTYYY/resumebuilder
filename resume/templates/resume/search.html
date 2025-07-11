@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Builder</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #e0eafc, #cfdef3);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 60px;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #2c3e50;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #2980b9;
+        }
+
+        button {
+            padding: 12px;
+            font-size: 16px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #1f6391;
+        }
+
+        .result {
+            text-align: left;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Search Employee Resume</h1>
+
+        <form method="GET">
+            <input type="text" name="query" placeholder="Enter Employee ID or Name" required>
+            <button type="submit">Search</button>
+        </form>
+
+        {% if employees %}
+            {% for emp in employees %}
+                <div class="result">
+                    <strong>{{ emp.id }} - {{ emp.name }}</strong><br>
+                    <em>{{ emp.designation }}</em>
+
+                    <form method="post" action="{% url 'generate_resume' emp.id %}" style="margin-top: 10px;">
+                        {% csrf_token %}
+                        <button type="submit">Download Resume</button>
+                    </form>
+                </div>
+            {% endfor %}
+        {% elif query %}
+            <p style="color: red;">No employee found matching "{{ query }}"</p>
+        {% endif %}
+
+        <div class="footer">
+            Resume Builder &copy; 2025
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+name,technology_used,description,roles_and_responsibilities
+Inventory App,"Django, PostgreSQL","A comprehensive platform designed to streamline inventory management for retail and warehouse operations. Includes features for tracking stock levels, generating low-inventory alerts, managing suppliers, and automating purchase orders.","Built APIs
+Created dashboard
+Integrated reports"
+Website Builder,"React, Node.js","A drag-and-drop website builder tailored for small businesses and entrepreneurs. Allows users to select templates, customize content, and publish responsive websites with built-in SEO tools, contact forms, and media support.","UI components
+Auth system
+API calls"
+HR Management,"Django, React","An end-to-end HR solution that enables companies to manage employee records, leaves, payroll, and performance evaluations. Features include role-based access, employee self-service portal, and automated payslip generation.","Built APIs
+Implemented role-based access
+Integrated email alerts"
+Data Dashboard,"Flask, Chart.js","A real-time data analytics dashboard providing executives with key insights. Integrates with multiple data sources to visualize KPIs using interactive charts, graphs, and heatmaps, enabling data-driven decision-making.","Data visualization
+Live updates
+User roles"
+Cloud Sync,"AWS, Docker","A secure cloud synchronization system that allows users to back up, restore, and share files across devices. Supports automatic syncing, version control, and access management using AWS S3 and Lambda functions.","Setup EC2 instances
+Built Docker images
+S3 bucket sync"
+Mobile Banking,"Flutter, Firebase","A cross-platform mobile banking application that enables users to check balances, transfer funds, view transaction history, and manage accounts securely. Implements biometric login and OTP-based authentication.","Created login flow
+Integrated OTP
+Used cloud Firestore"
+E-learning Platform,"Vue.js, Django","A modern online education platform supporting video lectures, quizzes, assignments, and progress tracking. Enables educators to create interactive content and monitor learner engagement in real time.","Course APIs
+Progress tracking
+Responsive design"
+Test Automation Suite,"Selenium, Python","A robust testing framework built with Selenium and integrated into CI/CD pipelines. Automates browser-based regression and smoke testing with detailed reports, screenshots, and failure logs.","Wrote test cases
+CI/CD integration
+Bug reporting"
+ML Model Deployment,"FastAPI, TensorFlow","A RESTful microservice for deploying machine learning models using FastAPI. Supports prediction requests, batch processing, and model versioning. Optimized for low-latency inference and scalable deployment.
+","Model training
+API design
+Dockerization"
+Survey App,"React Native, Node.js","A dynamic survey application that lets users design, distribute, and analyze surveys. Includes features like conditional logic, response analytics, downloadable reports, and push notifications.","Question builder
+Push notifications
+Export results"

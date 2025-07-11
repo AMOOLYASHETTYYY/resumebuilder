@@ -1,0 +1,41 @@
+name,designation,summary,technical_skills
+John Doe,Software Developer,"Experienced backend developer with 3+ years of hands-on expertise in building robust, secure, and scalable web applications using Django. Proficient in REST API development, ORM, authentication systems, and integrating third-party services to enhance application capabilities","Python
+Django
+HTML
+CSS"
+Jane Smith,Frontend Engineer,"Creative frontend engineer with a strong background in UI/UX principles, responsive design, and modern frameworks like React and Vue.js. Adept at translating complex requirements into intuitive interfaces that enhance user satisfaction and business engagement","JavaScript
+React
+CSS
+HTML"
+Alice Johnson,Full Stack Developer,"Versatile full-stack developer with over 5 years of experience in end-to-end web development. Skilled in Python, JavaScript, Vue.js, and MySQL. Known for building efficient, maintainable codebases, collaborating cross-functionally, and delivering high-impact features.","Python
+JavaScript
+Vue.js
+MySQL"
+Bob Brown,Data Analyst,"Detail-oriented data analyst with a strong foundation in extracting insights from complex datasets. Proficient in Python, Pandas, and data visualization tools such as Tableau and PowerBI. Experienced in cleaning, modeling, and interpreting data to inform strategic decisions.","Python
+Pandas
+Tableau
+Excel"
+Charlie Green,DevOps Engineer,"DevOps engineer with deep understanding of continuous integration and deployment strategies. Hands-on experience with Docker, Kubernetes, and AWS cloud infrastructure. Expert in setting up scalable pipelines, monitoring tools, and automation scripts","Docker
+Kubernetes
+AWS
+Linux"
+Diana Prince,Mobile App Developer,"Skilled mobile app developer with proven experience in designing and delivering cross-platform applications using Flutter. Strong understanding of mobile architecture, state management, Firebase integration, and ensuring smooth user experience across devices","Flutter
+Dart
+Firebase
+SQLite"
+Ethan Hunt,Project Manager,"Certified Scrum Master and project manager with a track record of successfully leading agile teams. Experienced in sprint planning, backlog grooming, stakeholder communication, and ensuring timely delivery of software projects aligned with business goals.","Scrum
+Kanban
+JIRA
+Confluence"
+Fiona White,QA Engineer,"QA engineer specialized in automation testing frameworks and quality assurance processes. Proficient in tools like Selenium, Postman, and JMeter. Known for improving test coverage, minimizing bugs in production, and collaborating closely with dev teams for quality releases","Selenium
+Postman
+JMeter
+Python"
+George Black,Business Analyst,"Business analyst with a strong aptitude for bridging the gap between business needs and technical execution. Skilled in requirement gathering, stakeholder interviews, wireframing, and preparing documentation that drives successful project delivery.","Excel
+SQL
+PowerBI
+Confluence"
+Hannah Gray,Machine Learning Engineer,"Machine learning engineer passionate about building intelligent systems using deep learning and AI. Proficient in TensorFlow, Keras, and Scikit-learn. Experienced in developing and deploying predictive models for classification, regression, and NLP tasks","Python
+TensorFlow
+Scikit-learn
+Keras"
